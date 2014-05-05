@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+    <modelVersion>4.0.0</modelVersion>  
+    <parent> 
+        <groupId>TongYiGan</groupId>  
+        <artifactId>com.tongyigan</artifactId>  
+        <version>1.0.0-SNAPSHOT</version> 
+    </parent>  
+    <artifactId>tongyigan-infra</artifactId>  
+    <name>tongyigan-infra</name>  
+    <packaging>jar</packaging>  
+    <url>http://maven.apache.org</url>  
+    <properties> 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+        <project.type>infra</project.type>  
+        <base.package>TongYiGan.com.tongyigan.infra</base.package> 
+    </properties>  
+    <dependencies> 
+        <dependency> 
+            <groupId>junit</groupId>  
+            <artifactId>junit</artifactId>  
+            <scope>test</scope> 
+        </dependency>  
+        <dependency> 
+            <groupId>org.openkoala.koalacommons</groupId>  
+            <artifactId>koala-commons-test-support</artifactId>  
+            <version>${koala.version}</version>  
+            <scope>test</scope> 
+        </dependency>  
+        <dependency> 
+            <groupId>TongYiGan</groupId>  
+            <artifactId>tongyigan-core</artifactId>  
+            <version>${project.parent.version}</version> 
+        </dependency>  
+        <dependency> 
+            <groupId>TongYiGan</groupId>  
+            <artifactId>tongyigan-application</artifactId>  
+            <version>${project.parent.version}</version> 
+        </dependency> 
+    </dependencies>  
+    <build> 
+        <plugins></plugins> 
+    </build> 
+</project>
